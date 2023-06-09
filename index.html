@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styleslide.css" />
+    <title>Interiors Symphony</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a href=""><img src="images/LOGO.png" width="125 px" /></a>
+
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </nav>
+      <img src="images/cart.png" alt="" width="35px" height="35px" />
+      <img
+        src="images/menu.png"
+        alt=""
+        width="30px"
+        height="30px"
+        class="menu-icon"
+        onclick="menutoggle()"
+      />
+    </div>
+    <!-- SLIDER -->
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <input type="radio" name="radio-btn" id="radio5" />
+        <input type="radio" name="radio-btn" id="radio6" />
+        <input type="radio" name="radio-btn" id="radio7" />
+        <input type="radio" name="radio-btn" id="radio8" />
+        <input type="radio" name="radio-btn" id="radio9" />
+        <div class="slide first">
+          <img src="images/slider/160.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/260.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/360.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/460.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/560.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/660.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/760.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/860.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/slider/960.jpg" alt="" />
+        </div>
+        <!-- <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div> -->
+      </div>
+    </div>
+    <!-- HEADER -->
+    <div class="header">
+      <div class="container">
+        <div class="row" id="column">
+          <div class="col-2">
+            <h1 class="whiteh1">
+              Be The Maestro
+              <br />
+              Of Your Home Design.
+            </h1>
+            <p>
+              The best rooms have something to say about the people who live in
+              them.
+            </p>
+            <a href="#" class="btn" id="btn-middle">Explore Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------HIGHLIGHT------------------- -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3"><img src="images/GreySofa.jpg" alt="" /></div>
+          <div class="col-3">
+            <img src="images/CreamSofa.png" alt="" />
+          </div>
+          <div class="col-3"><img src="images/GreyCloset.gif" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------FEATURED PRODUCTS------------------- -->
+    <div class="small-container">
+      <h1 class="title">Featured Products</h1>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/BlackCloset.gif" alt="" />
+          <h3>Black Closet</h3>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <h3>$89.99</h3>
+        </div>
+
+        <div class="col-4">
+          <img src="images/BlueSofa.png"" alt="" />
+          <h3>Blue Sofa</h3>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <h3>$89.99</h3>
+        </div>
+        <div class="col-4">
+          <img src="images/GreyCloset.gif" alt="" />
+          <h3>Grey Closet</h3>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h3>$109.99</h3>
+        </div>
+        <div class="col-4">
+          <img src="images/GreySofa.jpg" alt="" />
+          <h3>Grey Sofa</h3>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <h3>$109.99</h3>
+        </div>
+
+        <!-- -----------------LATEST PRODUCTS------------------- -->
+
+        <h1 class="title">Latest Products</h1>
+        <div class="row">
+          <div class="col-4">
+            <img src="images/WhiteSofa.jpg" alt="" />
+            <h4>White Sofa</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h3>$99.99</h3>
+          </div>
+          <div class="col-4">
+            <img src="images/BlackCloset.gif" alt="" />
+            <h4>Black Closet</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h3>$89.99</h3>
+          </div>
+
+          <div class="col-4">
+            <img src="images/BlueSofa.png" alt="" />
+            <h4>Blue Sofa</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h3>$89.99</h3>
+          </div>
+
+          <div class="col-4">
+            <img src="images/GreySofa.jpg" alt="" />
+            <h4>Grey Sofa</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <h3>$109.99</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img src="images/GreyCloset.gif" alt="" />
+            <h4>Grey Closet</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <h3>$109.99</h3>
+          </div>
+          <div class="col-4">
+            <img src="images/GreyChair.jpg" alt="" />
+            <h4>Grey Chair</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h3>$69.99</h3>
+          </div>
+          <div class="col-4">
+            <img src="images/CreamSofa.png" alt="" />
+            <h4>Cream Sofa</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <h3>$109.99</h3>
+          </div>
+          <div class="col-4">
+            <img src="images/WhiteCloset.gif" alt="" />
+            <h4>White Closet</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <h3>$89.99</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------- offer -------------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/offer.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on Interiors Symphony</p>
+            <h1 class="whiteh1" style="color: #844d36">Cosy Mosy</h1>
+            <small
+              >Experience pure bliss with the Cosy Mosy sofa. Its inviting
+              design and plush cushions create a relaxing haven, transporting
+              you to a state of tranquil serenity.</small
+            ><br />
+            <a href="#" class="btn" id="btn-start">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------Testimonial --------------- -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel in
+              ducimus porro quidem possimus omnis asperiores voluptatem fuga at
+              quia minima dolorem explicabo debitis, rerum velit obcaecati ipsam
+              blanditiis incidunt!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <img src="images/user-1.png" alt="" />
+            <h3>Alex Cena</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              esse voluptatem deserunt architecto laudantium perspiciatis
+              facere. Excepturi saepe ratione repellendus quasi corporis sunt
+              cumque quod, delectus, magnam officiis facere necessitatibus!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/user-2.png" alt="" />
+            <h3>Bill Jones</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              eveniet facilis dicta libero aliquid ipsum, soluta at voluptates
+              debitis mollitia et laboriosam. Reprehenderit voluptates ipsam cum
+              recusandae animi veniam iusto?
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/user-3.png" alt="" />
+            <h3>Alicia Stones</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------- brands -------------   -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------- footer --------------  -->
+    <div class="footer">
+      <div class="container1">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and iOS mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/LOGO.png" />
+            <p>
+              Our Purpose Is To Make You Capable To Design Your House The Way
+              You Like it.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Realised By: Karim Boutih</p>
+      </div>
+    </div>
+    <!-- -------Java Script------- -->
+    <script src="function.js"></script>
+  </body>
+</html>
